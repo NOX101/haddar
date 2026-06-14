@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio — HADDAR Hamza</title>
+  <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+  <!-- Barre de navigation -->
+  <nav class="nav">
+    <div class="nav__inner">
+      <a class="brand" href="#home">Hamza<span>.</span></a>
+
+      <button class="nav__toggle" id="navToggle" aria-label="Ouvrir le menu">☰</button>
+
+      <ul class="nav__links" id="navLinks">
+        <li><a class="nav__link" href="#home">Home</a></li>
+        <li><a class="nav__link" href="#about">À propos</a></li>
+        <li><a class="nav__link" href="#formation">Formation</a></li>
+        <li><a class="nav__link" href="#experience">Expérience</a></li>
+        <li><a class="nav__link" href="#skills">Compétences</a></li>
+        <li><a class="nav__link" href="#projects">Projets</a></li>
+        <li><a class="nav__link" href="#hobbies">Divers</a></li>
+        <li><a class="nav__link" href="#cv">CV</a></li>
+        <li><a class="nav__link" href="#contact">Contact</a></li>
+      </ul>
+
+      <button class="theme-btn" id="themeBtn" aria-label="Changer le thème">🌙</button>
+    </div>
+  </nav>
+
+  <header class="hero" id="home">
+    <div class="hero__bg"></div>
+    <div class="container hero__content">
+      <p class="pill">BUT Réseaux & Télécommunications • IUT Clermont Auvergne</p>
+      <h1>PORTFOLIO</h1>
+   <p class="hero__subtitle">
+  Étudiant en deuxième année de BUT Réseaux et Télécommunications – Parcours Cybersécurité,
+  passionné par les réseaux, les systèmes et la cybersécurité, et actuellement alternant
+  chez France 3 Auvergne en systèmes, réseaux et cybersécurité.
+</p>
+
+      <div class="hero__cta">
+        <a class="btn btn--primary" href="#projects">Voir mes projets</a>
+        <a class="btn btn--ghost" href="#contact">Me contacter</a>
+      </div>
+
+      <p class="scroll-indicator">Défilez pour en savoir plus</p>
+    </div>
+  </header>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section__head">
+        <h2>À propos de moi</h2>
+      </div>
+
+      <div class="card">
+        <div class="about-container">
+          <img src="./DSC_7944.jpg" alt="Photo de moi" class="about-photo">
+          <p>
+            Je m'appelle <strong>HADDAR Hamza</strong>. Actuellement étudiant en deuxième année de
+            <strong>BUT Réseaux et Télécommunications</strong>, parcours <strong>Cybersécurité</strong>,
+            à l'<strong>IUT Clermont Auvergne</strong>, je suis passionné par les nouvelles technologies,
+            les réseaux et la sécurité des systèmes d'information. Mon objectif est de développer des
+            compétences solides dans les domaines des réseaux, de l'administration des systèmes et de la
+            cybersécurité afin de contribuer à des projets innovants et à la protection des infrastructures numériques.
+
+            Doté d'un excellent sens de l'<strong>organisation</strong>, d'une grande
+            <strong>persévérance</strong> et d'une forte capacité à <strong>travailler en équipe</strong>,
+            je m'efforce de toujours donner le meilleur de moi-même dans chaque projet.
+
+            Depuis <strong>septembre 2025</strong>, j'effectue mon <strong>alternance chez France 3 Auvergne</strong>,
+            où je participe à des missions liées aux systèmes et réseaux, au support informatique et au maintien
+            en condition opérationnelle des infrastructures informatiques
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FORMATION -->
+  <section id="formation" class="section section--alt">
+    <div class="container">
+      <div class="section__head">
+        <h2>Formation</h2>
+      </div>
+
+     <div class="grid grid--2">
+        <div class="card">
+          <h3>2024 - Présent : BUT Réseaux et Télécommunications - Parcours Cybersécurité</h3>
+          <img src="./logo-uca.png" alt="Logo UCA" width="100" height="100"/>
+          <p><strong>Établissement :</strong> IUT Clermont Auvergne</p>
+          <p><strong>Compétences acquises :</strong> Administration des systèmes Linux et Windows, configuration et sécurisation des réseaux informatiques, administration des <strong>routeurs</strong>, <strong>switchs</strong> et <strong>pare-feu (firewalls)</strong>, mise en place et gestion des services réseau (DNS, DHCP, Active Directory), virtualisation, programmation et scripting (Python, Bash, PowerShell), analyse des vulnérabilités, sensibilisation à l'hygiène informatique et mise en œuvre de solutions de <strong>cybersécurité</strong> pour la protection des systèmes et des infrastructures numériques.</p>
+        </div>
+      </div>
+
+        <div class="card">
+          <h3>2021 - 2024 : Baccalauréat, spécialité Sciences Physiques et Chimie</h3>
+          <p><strong>Établissement :</strong> ALMOATAMID BNOU ABBAD, CASABLANCA</p>
+          <p><strong>Mention :</strong> Très bien</p>
+          <p><strong>Compétences acquises :</strong> Analyse et résolution de problèmes, bases en chimie et physique appliquée.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- EXPERIENCE -->
+<section id="experience" class="section">
+    <div class="container">
+      <div class="section__head">
+        <h2>Expérience professionnelle (clique pour voir le détail)</h2>
+      </div>
+  
+      <!-- Carte visible -->
+      <div class="grid grid--2">
+        <div class="card clickable open-modal" data-target="exp-france3">
+         <h3>Alternant — France 3 Auvergne</h3>
+         <p class="muted">Septembre 2025 - Présent</p>
+          <img src="./france3.jpg" alt="France 3 Auvergne" class="about-photo">
+          <p class="muted">Cliquer pour voir objectif, travail réalisé et résultats</p>
+        </div>
+        <div class="card clickable open-modal" data-target="exp-rgis">
+          <h3>Inventoriste — RGIS</h3>
+          <p class="muted">Décembre 2024 - Présent</p>
+          <img src="./RGIS.png" alt="RGIS" class="about-photo">
+          <p class="muted">Cliquer pour voir objectif, travail réalisé et résultats</p>
+        </div>
+      </div>
+  
+      <!-- Contenu caché (popup) -->
+      <div id="exp-rgis" class="modal-data" hidden>
+        <h3>Décembre 2024 - Présent : Inventoriste chez RGIS</h3>
+  
+        <div class="about-container">
+          <img src="./RGIS.png" alt="RGIS" class="about-photo">
+          <div>
+            <p><strong>Objectif :</strong> Participer au <u>comptage des stocks</u> dans différents magasins et assurer <u>l'exactitude des inventaires</u>.</p>
+            <p><strong>Travail réalisé :</strong> Utilisation d'équipements spécifiques tels que des <u>scanners de codes-barres</u> pour effectuer le comptage des produits, <u>vérification</u> de la qualité des données saisies dans le système informatique, et <u>organisation du travail</u> en équipe pour une comptabilisation rapide et précise.</p>
+            <p><strong>Résultats obtenus :</strong> <u>Contribution efficace</u> à la précision des inventaires, <u>respect des délais</u> imposés pour l'achèvement du comptage et <u>amélioration</u> de la gestion des stocks grâce à des inventaires plus fiables.</p>
+          </div>
+        </div>
+      </div>
+      <div id="exp-france3" class="modal-data" hidden>
+  <h3>Septembre 2025 - Présent : Alternant chez France 3 Auvergne</h3>
+
+  <div class="about-container">
+    <img src="./france3.jpg" alt="France 3 Auvergne" class="about-photo">
+    <div>
+      <p><strong>Objectif :</strong> Participer au <u>support informatique</u>, à la <u>maintenance des systèmes</u> et au bon fonctionnement des équipements réseaux et numériques au sein de France 3 Auvergne.</p>
+
+      <p><strong>Travail réalisé :</strong> Assistance aux utilisateurs, <u>installation et configuration de postes informatiques</u>, suivi des incidents, vérification du bon fonctionnement des équipements, participation à la <u>gestion du réseau</u> et respect des procédures internes.</p>
+
+      <p><strong>Résultats obtenus :</strong> Développement de mes compétences en <u>systèmes et réseaux</u>, amélioration de mon autonomie, meilleure compréhension du fonctionnement d’un environnement professionnel, et contribution au <u>maintien opérationnel</u> des services informatiques.</p>
+    </div>
+  </div>
+</div>
+    </div>
+  </section>
+  
+  <!-- SKILLS -->
+  <section id="skills" class="section section--alt">
+    <div class="container">
+      <div class="section__head">
+        <h2>Compétences</h2>
+      </div>
+
+      <p class="competence-title">Qualités (clique pour voir le détail)</p>
+
+      <div class="grid grid--3">
+        <!-- CARD 1 -->
+        <div class="card clickable open-modal" data-target="qual-orga">
+          <h3>Organisation</h3>
+          <p class="muted">Cliquer pour voir l’exemple</p>
+        </div>
+
+        <!-- CARD 2 -->
+        <div class="card clickable open-modal" data-target="qual-team">
+          <h3>Travail en équipe</h3>
+          <p class="muted">Cliquer pour voir l’exemple</p>
+        </div>
+
+        <!-- CARD 3 -->
+        <div class="card clickable open-modal" data-target="qual-perse">
+          <h3>Persévérance</h3>
+          <p class="muted">Cliquer pour voir l’exemple</p>
+        </div>
+      </div>
+
+      <!-- HIDDEN CONTENT Qualités -->
+      <div id="qual-orga" class="modal-data" hidden>
+        <h3>Organisation</h3>
+        <img src="./orgnisation.jpg" alt="Organisation" style="width:120px;height:120px;">
+        <p>L'organisation est essentielle pour gérer efficacement mes études et mes projets. Je planifie mon travail pour atteindre mes objectifs dans les délais.</p>
+        <p class="competence-per">-<u>Par exemple</u>, lors d'un TP sur l'installation d'un point d'accès WiFi, j'ai structuré mon travail en plusieurs étapes : préparation du matériel, configuration des paramètres, puis validation des résultats. Grâce à cette méthode, j'ai pu finir le TP dans les temps tout en garantissant un résultat précis.</p>
+      </div>
+
+      <div id="qual-team" class="modal-data" hidden>
+        <h3>Travail en équipe</h3>
+        <img src="./team-work.jpg" alt="Travail en équipe" style="width:120px;height:120px;">
+        <p>Travailler en équipe me permet d'échanger des idées, de m'adapter aux autres et de produire des résultats collectifs de qualité.</p>
+        <p class="competence-per">-<u>Lors de l'exposé </u>, sur la <u>sécurité des équipements nomades (SAE1.01)</u>, j'ai collaboré avec mes camarades pour diviser les tâches et partager nos recherches. Cette synergie nous a permis de livrer une présentation claire et complète, bien appréciée par le professeur.</p>
+      </div>
+
+      <div id="qual-perse" class="modal-data" hidden>
+        <h3>Persévérance</h3>
+        <img src="./perseverence.jpg" alt="Persévérance" style="width:120px;height:120px;">
+        <p>La persévérance est pour moi la capacité à ne pas abandonner face aux difficultés et à trouver des solutions pour progresser.</p>
+        <p class="competence-per">-<u>Pendant la configuration</u> de machines virtuelles sous <u>Debian</u>, j'ai rencontré des erreurs techniques persistantes. J'ai continué à chercher des solutions en consultant des forums et en demandant de l'aide à mon professeur. Cette persévérance m'a permis de finaliser l'exercice avec succès.</p>
+      </div>
+
+    <p class="competence-title mt">Compétences techniques</p>
+<div class="card">
+  <ul>
+    <li><strong>Programmation et scripting</strong> : Compétences en Python pour l'automatisation de tâches et le développement de scripts, ainsi que des bases en HTML <img src="./html.png" width="20" height="20">, CSS <img src="./css.png" width="20" height="20"> et PHP pour la création de sites web simples.</li>
+
+    <li><strong>Réseaux et télécommunications</strong> : Maîtrise des concepts fondamentaux des réseaux (TCP/IP, DHCP, DNS, VLAN, routage), configuration et administration de matériels réseau (routeurs, switchs) et gestion d'infrastructures réseau dans des environnements professionnels.</li>
+
+    <li><strong>Systèmes d'exploitation</strong> : Installation, configuration et administration de systèmes Linux et Windows, gestion des utilisateurs, des services réseau et des serveurs.</li>
+
+    <li><strong>Cybersécurité</strong> : Mise en œuvre de bonnes pratiques de sécurité informatique, configuration de pare-feu (firewalls), sécurisation des réseaux et des systèmes, analyse de vulnérabilités et réalisation de tests d'intrusion (pentests) dans des environnements pédagogiques.</li>
+
+    <li><strong>Téléphonie sur IP (ToIP)</strong> : Connaissances des technologies DECT, SIP, softphones, configuration de trunks SIP, gestion du renvoi d'appel et de la messagerie vocale dans des environnements professionnels.</li>
+  </ul>
+</div>
+      <p class="competence-title mt">Compétences linguistiques</p>
+      <div class="card">
+        <ul>
+          <li><strong>Arabe</strong> : Langue maternelle</li>
+          <li><strong>Français</strong> : B2 - C1 <a href="./HADDAR Hamza .pdf" target="_blank">(Ouvrir le certificat)</a></li>
+          <li><strong>Anglais</strong> : intermédiaire</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <div class="container">
+      <div class="section__head">
+        <h2>Projets (clique pour voir le détail)</h2>
+      </div>
+
+      <div class="grid grid--2">
+        <!-- Cards visible -->
+         <div class="card clickable open-modal" data-target="proj-stage-but2"> <h3>Stage de BUT 2 - Mise en œuvre d'une solution de sauvegarde avec Veeam</h3> <p class="muted">Voir détails + missions + compétences acquises</p> </div>
+        <div class="card clickable open-modal" data-target="proj-stormshield">
+  <h3>Projet Firewall Stormshield - Sécurisation réseau</h3>
+  <p class="muted">Voir détails + configuration + compétences acquises</p>
+</div>
+
+
+        <div class="card clickable open-modal" data-target="proj-pentest"> <h3>SAE3.CYBER.04 Projet de Pentest </h3> <p class="muted">Voir détails + méthodologie + compétences acquises</p> </div>
+
+
+        <div class="card clickable open-modal" data-target="proj-sae14">
+          <h3>SAE 14 - Portfolio</h3>
+          <p class="muted">Voir détails + étapes + note</p>
+        </div>
+
+        <div class="card clickable open-modal" data-target="proj-comm">
+          <h3>Projet Communication - Solid'R & NETSPHERE SOLUTIONS</h3>
+          <p class="muted">Voir détails + livrables + note</p>
+        </div>
+
+        <div class="card clickable open-modal" data-target="proj-sae101">
+          <h3>SAE1.01 - Sécurité des équipements nomades</h3>
+          <p class="muted">Voir détails + liens + livrables</p>
+        </div>
+
+        <div class="card clickable open-modal" data-target="proj-internet2">
+          <h3>Internet-2 & SAE2.01</h3>
+          <p class="muted">Voir sujets + objectifs</p>
+        </div>
+
+        <div class="card clickable open-modal" data-target="proj-sae203">
+          <h3>SAE2.03 – Gestion de tickets support</h3>
+          <p class="muted">Voir étapes + objectif</p>
+        </div>
+      </div>
+
+      <!-- Hidden project contents (TES TEXTES) -->
+      <div id="proj-stage-but2" class="modal-data" hidden> <h3>Stage de BUT 2 - Mise en œuvre d'une solution de sauvegarde avec Veeam</h3> <img src="./veeam.png" alt="Illustration Veeam" width="700" height="400" style="border: 4mm ridge rgba(30, 58, 138, .6);"> <p><strong>Objectif :</strong> Étudier et mettre en œuvre une solution de sauvegarde et de restauration avec Veeam Backup & Replication afin d'assurer la protection des données et la continuité des services informatiques.</p> <p><strong>Contexte :</strong> Ce projet a été réalisé dans le cadre de mon stage de deuxième année de BUT Réseaux et Télécommunications, parcours Cybersécurité, au sein de <strong>France 3 Auvergne</strong>. Le stage m'a permis de découvrir les problématiques liées à la sauvegarde des données en environnement professionnel et de participer à l'étude et à l'utilisation d'une solution de sauvegarde d'entreprise.</p> <p class="competence-title">Étapes de réalisation :</p> <ul> <li><strong>Découverte de l'environnement :</strong> <ul> <li>- Analyse de l'infrastructure informatique et des besoins de sauvegarde de l'entreprise.</li> <li>- Étude du fonctionnement de Veeam Backup & Replication.</li> </ul> </li> <li><strong>Mise en œuvre de la solution :</strong> <ul> <li>- Configuration et planification des tâches de sauvegarde.</li> <li>- Définition des politiques de rétention des données.</li> <li>- Vérification du bon déroulement des sauvegardes.</li> </ul> </li> <li><strong>Tests et validation :</strong> <ul> <li>- Réalisation de tests de restauration.</li> <li>- Vérification de l'intégrité et de la disponibilité des données sauvegardées.</li> </ul> </li> <li><strong>Documentation :</strong> <ul> <li>- Rédaction d'un rapport de stage présentant l'environnement de travail, les missions réalisées et les résultats obtenus.</li> </ul> </li> </ul> <p><strong>Compétences développées :</strong> Sauvegarde et restauration de données, administration de Veeam Backup & Replication, planification des sauvegardes, politiques de rétention, tests de reprise d'activité, documentation technique, découverte d'une infrastructure de production et bonnes pratiques de protection des données.</p> <p><strong>Livrables :</strong></p> <ul> <li>Rapport de stage de BUT 2 réalisé au sein de France 3 Auvergne.</li> <li>Documentation des procédures de sauvegarde et de restauration.</li> <li>Captures d'écran des configurations et des tests effectués.</li> </ul> <a href="./BUT2_rapport_de_stage_HADDAR_Hamza.pdf" target="_blank" style="color: blue;"> Ouvrir le rapport de stage de BUT 2. </a> </div>
+
+
+
+
+      <div id="proj-stormshield" class="modal-data" hidden>
+  <h3>Projet Firewall Stormshield - Sécurisation réseau</h3>
+
+  <img src="./firewall.png" alt="Illustration Stormshield"
+       width="700" height="400"
+       style="border: 4mm ridge rgba(30, 58, 138, .6);">
+
+  <p><strong>Objectif :</strong> Configurer et administrer un pare-feu Stormshield afin d'appliquer différentes politiques de sécurité réseau dans le cadre de travaux pratiques.</p>
+
+  <p><strong>Contexte :</strong> Ce projet a été réalisé à l'IUT, en autonomie et parfois avec l'accompagnement du professeur. L'objectif était de mettre en pratique des demandes de labs autour de la sécurité réseau : filtrage, règles entrantes et sortantes, portail captif, VPN et contrôle des flux HTTP/HTTPS. Afin de consolider mes connaissances et préparer les évaluations, j'ai également rédigé un compte rendu personnel regroupant les différentes configurations réalisées et les notions importantes abordées pendant les travaux pratiques.</p>
+  <p class="competence-title">Étapes de réalisation :</p>
+  <ul>
+    <li><strong>Configuration des règles de filtrage :</strong>
+      <ul>
+        <li>- Création de règles entrantes et sortantes selon les besoins du lab.</li>
+        <li>- Autorisation ou blocage de certains flux réseau.</li>
+        <li>- Vérification du bon fonctionnement des règles appliquées.</li>
+      </ul>
+    </li>
+
+    <li><strong>Mise en place du portail captif :</strong>
+      <ul>
+        <li>- Configuration d'un accès contrôlé pour les utilisateurs.</li>
+        <li>- Gestion de l'authentification avant l'accès au réseau.</li>
+      </ul>
+    </li>
+
+    <li><strong>Configuration VPN :</strong>
+      <ul>
+        <li>- Mise en place d'un accès sécurisé à distance.</li>
+        <li>- Test de la connexion VPN et vérification de la communication entre les réseaux.</li>
+      </ul>
+    </li>
+
+    <li><strong>Filtrage web HTTP/HTTPS :</strong>
+      <ul>
+        <li>- Application de règles de filtrage web.</li>
+        <li>- Contrôle des accès vers certains sites ou services.</li>
+        <li>- Analyse des logs pour vérifier les flux autorisés ou bloqués.</li>
+      </ul>
+    </li>
+  </ul>
+
+  <p><strong>Compétences développées :</strong> Administration d'un pare-feu Stormshield, sécurité réseau, filtrage entrant et sortant, configuration VPN, portail captif, filtrage HTTP/HTTPS, analyse des logs et application de politiques de sécurité.</p>
+
+  <p><strong>Livrables :</strong></p>
+<ul>
+  <li>Comptes rendus des travaux pratiques réalisés.</li>
+  <li>Captures d'écran des configurations Stormshield.</li>
+  <li>Tests de validation des règles de sécurité mises en place.</li>
+  <li>Compte rendu personnel de révision regroupant les principales configurations, commandes et bonnes pratiques de sécurisation sous Stormshield.</li>
+<a href="./CR-Stormshield.pdf" target="_blank" style="color: blue;">
+  Ouvrir le compte rendu de révision sur Stormshield.
+</a>
+</ul>
+</div>
+
+
+      <div id="proj-pentest" class="modal-data" hidden> <h3>SAE3.CYBER.04 Projet de Pentest </h3> <img src="./pentest.jpg" alt="Illustration Pentest" width="700" height="400" style="border: 4mm ridge rgba(30, 58, 138, .6);"> <p><strong>Objectif :</strong> Réaliser des tests d'intrusion (Pentest) sur plusieurs machines virtuelles vulnérables afin d'identifier leurs failles de sécurité, d'exploiter les vulnérabilités découvertes et de proposer une démarche méthodique d'analyse de sécurité.</p> <p><strong>Contexte :</strong> Dans le cadre du parcours Cybersécurité du BUT Réseaux et Télécommunications, ce projet a été réalisé en binôme. Il consistait à effectuer un audit de sécurité complet sur six machines virtuelles (Kioptrix, Blue, Academy, Dev, Butler et Black Pearl) et à rédiger un rapport technique détaillant l'ensemble des démarches et résultats obtenus.</p> <p class="competence-title">Étapes de réalisation :</p> <ul> <li><strong>Reconnaissance et collecte d'informations :</strong> <ul> <li>- Identification des machines présentes sur le réseau et collecte d'informations sur les services exposés.</li> <li>- Réalisation de scans de ports et d'énumérations de services à l'aide d'outils spécialisés.</li> </ul> </li> <li><strong>Analyse des vulnérabilités :</strong> <ul> <li>- Recherche et identification des vulnérabilités présentes sur chaque machine.</li> <li>- Évaluation de leur criticité et calcul des scores de vulnérabilité.</li> <li>- Justification des choix méthodologiques et des étapes suivantes.</li> </ul> </li> <li><strong>Exploitation des vulnérabilités :</strong> <ul> <li>- Exploitation des failles découvertes afin d'obtenir un accès aux systèmes ciblés.</li> <li>- Réalisation d'escalades de privilèges lorsque cela était nécessaire.</li> <li>- Validation des résultats par des preuves et des captures d'écran.</li> </ul> </li> <li><strong>Rédaction du rapport technique :</strong> <ul> <li>- Documentation complète des différentes étapes de l'audit de sécurité.</li> <li>- Présentation des résultats, analyses et recommandations de sécurité.</li> <li>- Préparation d'une soutenance orale permettant de justifier l'ensemble des démarches réalisées.</li> </ul> </li> </ul> <p><strong>Compétences développées :</strong> Pentest, méthodologie d'audit de sécurité, analyse de vulnérabilités, énumération de services, exploitation de failles, escalade de privilèges, rédaction de rapports techniques, travail en équipe et communication technique.</p> <p><strong>Livrables :</strong></p> <ul> <li>Rapport technique de pentest réalisé en binôme.</li> <li>Captures d'écran des différentes étapes de l'audit.</li> <li>Présentation orale du projet et justification des démarches employées.</li> </ul> <a href="./Rapport-Pentest.pdf" target="_blank" style="color: blue;">
+  Ouvrir le rapport technique de Pentest.
+</a></div>
+      
+      <div id="proj-sae14" class="modal-data" hidden>
+        <h3>SAE 14 - Portfolio</h3>
+        <img src="./portfolio.jpg" alt="Photo de portfolio" width="700" height="500" style="border: 4mm ridge rgba(30, 58, 138, .6);">
+        <p><strong>Objectif :</strong> Créer un portfolio personnel pour présenter mes compétences, mon parcours académique et mes expériences professionnelles de manière structurée et professionnelle.</p>
+        <p><strong>Contexte :</strong> Ce projet a été réalisé en autonomie, dans un temps limité d'environ 8 heures. L'objectif était de concevoir un site web simple et efficace, tout en appliquant les compétences acquises en HTML, CSS, et en structuration de contenu pour le web.</p>
+        <p class="competence-title">Étapes de réalisation :</p>
+        <ul>
+          <li><strong>Planification :</strong> Définition du contenu à inclure dans le portfolio, notamment les sections "Compétences", "Projets", "Expérience professionnelle" et "Contact".</li>
+          <li><strong>Conception :</strong> Création de la maquette du site avec une mise en page claire et responsive, en utilisant HTML <img src="./html.png" width="20px" height="20px"> et CSS <img src="./css.png" width="20px" height="20px"> pour structurer et styliser les différentes sections.</li>
+          <li><strong>Développement :</strong> Codage des différentes pages du portfolio, en intégrant des éléments comme des menus de navigation, des sections de texte et des images. Application des bonnes pratiques pour le référencement et l'accessibilité du site.</li>
+          <li><strong>Test et ajustements :</strong> Vérification du bon fonctionnement du site sur différents navigateurs et dispositifs, ainsi que l'ajustement des styles et de la mise en page pour assurer une expérience utilisateur optimale.</li>
+        </ul>
+        <p><strong>Note :</strong> J'ai obtenu la note de 16/20 pour l'ensemble de ce projet..</p>
+      </div>
+
+      <div id="proj-comm" class="modal-data" hidden>
+        <h3>Projet Communication - Solid'R et NETSPHERE SOLUTIONS</h3>
+        <p><strong>Objectif :</strong> Simuler la création d'entreprises et développer des compétences en communication professionnelle à travers des échanges et présentations structurés.</p>
+        <p><strong>Contexte :</strong> Dans le cadre du cours de communication, nous avons créé deux projets d'entreprise fictive : Solid'R et NETSPHERE SOLUTIONS. L'exercice a impliqué une présentation détaillée des entreprises, des échanges professionnels simulés et une collaboration en équipe.</p>
+
+        <p class="competence-title">Étapes de réalisation :</p>
+        <ul>
+          <li><strong>Création de Solid'R :</strong>
+            <ul>
+              <img src="./Solid'R.jpg" class="photo" alt="Solid'R Logo" width="300" height="300" style="border: 4mm ridge rgba(30, 58, 138, .6);">
+              <li>-Rédaction d'un document de présentation détaillé de l'entreprise, incluant son objectif, son équipe et son projet d'expansion.</li>
+              <li>-Élaboration d'un scénario de développement, notamment l'acquisition d'une pièce adjacente pour agrandir les locaux.</li>
+              <li>-Rédaction et envoi d'un mail professionnel à une entreprise de réseau pour solliciter des services.</li>
+              <a href="./Solid'R.pdf" target="_blank" style="color: blue;">Ouvrir le document de présentation de l'entreprise Solid'R.</a>
+            </ul>
+          </li>
+
+          <li><strong>Projet NETSPHERE SOLUTIONS :</strong>
+            <ul>
+              <img src="./Netsphare.jpg" class="photo" alt="NETSPHARE Logo" width="300" height="300" style="border: 4mm ridge rgba(30, 58, 138, .6);">
+              <li>-Création d'une nouvelle entreprise spécialisée en solutions réseau.</li>
+              <a href="./Netsphare.pdf" target="_blank" style="color: blue;">Ouvrir le Document de présentation de l'entreprise Netsphere Solutions.</a>
+
+              <li>-Rédaction d'une réponse individuelle pour une entreprise partenaire simulée.</li>
+              <a href="./Netsphare(indiv).pdf" target="_blank" style="color: blue;">Ouvrir la réponses individuelles pour NETSPHERE SOLUTIONS.</a>
+
+              <br><li>-Conception d'une réponse collective sous forme de diaporama pour présenter nos solutions en équipe.</li>
+              <a href="./PresentationEntreprise.pdf" target="_blank" style="color: blue;">Ouvrir le diaporama collectif NETSPHERE SOLUTIONS présenté en classe.</a>
+            </ul>
+          </li>
+        </ul>
+
+        <p><strong>Livrables :</strong></p>
+        <ul>
+          <li>Document de présentation de l'entreprise Solid'R.</li>
+          <li>Document de présentation de l'entreprise Netsphere Solutions.</li>
+          <li>Réponse individuelle pour NETSPHERE SOLUTIONS.</li>
+          <li>Diaporama collectif NETSPHERE SOLUTIONS présenté en classe.</li>
+        </ul>
+
+        <p><strong>Note :</strong> J'ai obtenu la note de <strong>12.50/20</strong> pour l'ensemble de ce projet.</p>
+      </div>
+
+      <div id="proj-sae101" class="modal-data" hidden>
+        <h3>Projet SAE1.01 - Sécurité des équipements nomades</h3>
+        <img src="./securitedesequipements.jpg" alt="Sécurité équipements nomades" width="700" height="500" style="border: 4mm ridge rgba(30, 58, 138, .6);">
+
+        <p><strong>Objectif :</strong> Sensibiliser à la sécurité des équipements nomades, leur définition, leur fonctionnement, ainsi que les meilleures pratiques pour les sécuriser.</p>
+
+        <p><strong>Contexte :</strong> Dans le cadre du projet SAE1.01 sur la cybersécurité et l'hygiène informatique, notre groupe de 3 élèves a été chargé de traiter le sujet de la sécurité des équipements nomades. Nous avons réalisé une recherche approfondie sur ce sujet sous forme de document, puis avons conçu un diaporama que nous avons présenté ensemble.</p>
+
+        <p class="competence-title">Étapes de réalisation :</p>
+        <ul>
+          <li><strong>Recherche documentaire :</strong>
+            <ul>
+              <li>- Étude des différentes menaces pesant sur les équipements nomades tels que les smartphones et les ordinateurs portables.</li>
+              <li>- Identification des bonnes pratiques pour sécuriser ces appareils dans des environnements de travail et personnels.</li>
+              <a href="./Document-securité-nomade.pdf" target="_blank" style="color: blue;">Ouvrir le document de recherche sur la sécurité des équipements nomades.</a>
+            </ul>
+          </li>
+          <li><strong>Création du diaporama :</strong>
+            <ul>
+              <li>- Première partie : Définition et fonctionnement des équipements nomades (présentation des différents types d'équipements, leurs usages et caractéristiques).</li>
+              <li>- Deuxième partie : Sécurisation des équipements nomades (stratégies de protection contre les menaces comme les malwares, le vol de données, et l'utilisation des VPN).</li>
+              <a href="./securitédesequipements.pdf" target="_blank" style="color: blue;">Ouvrir le diaporama de présentation sur la sécurisation des équipements nomades.</a>
+            </ul>
+          </li>
+        </ul>
+
+        <p><strong>Livrables :</strong></p>
+        <ul>
+          <li>Document de recherche sur la sécurité des équipements nomades.</li>
+          <li>Diaporama de présentation sur la sécurisation des équipements nomades.</li>
+        </ul>
+
+        <p><strong>Note :</strong> Le projet a été évalué dans le cadre du cours SAE1.01.</p>
+      </div>
+
+      <div id="proj-internet2" class="modal-data" hidden>
+        <h3>Internet-2 & SAE2.01</h3>
+        <img src="./Sae21.png" alt="Photo de Sae21" width="600" height="200" style="border: 4mm ridge rgba(30, 58, 138, .6);">
+
+        <p><strong>Objectif :</strong> Appliquer les notions vues en cours pour comprendre et configurer des réseaux IPv6, des réseaux VLAN, des ACLs, un serveur DHCP et une translation d’adresse (NAT) sous Linux.</p>
+
+        <p><strong>Contexte :</strong> Ces TP ont été réalisés dans le cadre des modules <em>Internet 2</em> et <em>Sae2.01</em>. Ils nous ont permis de manipuler concrètement des équipements réseaux Cisco, des machines Linux et des scénarios réalistes de déploiement réseau.</p>
+
+        <p class="competence-title">Sujets abordés :</p>
+        <ul>
+          <li><strong>1. Découverte du fonctionnement du protocole IPv6 :</strong>
+            <ul>
+              <li>- Étude de l’adressage IPv6, des types d’adresses et du protocole NDP (Neighbor Discovery Protocol).</li>
+              <li>- Configuration d’adresses IPv6 statiques et test d’autoconfiguration (SLAAC).</li>
+              <li>- Analyse des échanges réseau via Wireshark (paquets ICMPv6, Router Advertisement...).</li>
+              <a href="./TP1.pdf" target="_blank" style="color: blue;">Ouvrir le sujet .</a>
+            </ul>
+          </li>
+
+          <li><strong>2. Translation d’adresse (NAT) avec iptables sous Linux :</strong>
+            <ul>
+              <li>- Création d’un routeur Linux via deux interfaces réseau.</li>
+              <li>- Application de règles de masquerading avec iptables.</li>
+              <li>- Test de la translation NAT depuis un client interne vers l’extérieur.</li>
+              <a href="./TP3.pdf" target="_blank" style="color: blue;">Ouvrir le sujet .</a>
+            </ul>
+          </li>
+
+          <li><strong>3. Configuration d’un réseau d’entreprise avec VLAN et ACL :</strong>
+            <ul>
+              <li>- Création de plusieurs VLANs (administration, étudiants, invités...).</li>
+              <li>- Configuration de ports de switch en accès ou en trunk.</li>
+              <li>- Application de règles ACL pour restreindre les communications entre VLANs selon les politiques de sécurité.</li>
+              <a href="./TP4.pdf" target="_blank" style="color: blue;">Ouvrir le sujet .</a>
+            </ul>
+          </li>
+
+          <li><strong>4. Configuration d’un serveur DHCP et routage inter-VLAN :</strong>
+            <ul>
+              <li>- Installation et configuration d’un serveur DHCP multi-sous-réseaux.</li>
+              <li>- Routage inter-VLAN avec sous-interfaces sur routeur ou switch L3.</li>
+              <li>- Attribution automatique d’adresses IP aux clients dans chaque VLAN.</li>
+              <a href="./TP5.pdf" target="_blank" style="color: blue;">Ouvrir le sujet .</a>
+            </ul>
+          </li>
+        </ul>
+
+        <p><strong>Note :</strong> L’évaluation finale liée à ces travaux pratiques n’a pas encore eu lieu.</p>
+      </div>
+
+      <div id="proj-sae203" class="modal-data" hidden>
+        <h3>Projet SAE2.03 – Mise en place d’un outil de gestion de tickets de support</h3>
+        <img src="./Sae23.png" alt="Illustration gestion de tickets" width="700" height="500" style="border: 4mm ridge rgba(30, 58, 138, .6);">
+
+        <p><strong>Objectif :</strong> Concevoir et développer une solution web pour gérer les demandes de support informatique des utilisateurs de l’université, tout en intégrant les différents rôles des utilisateurs (utilisateur simple, technicien, administrateur).</p>
+
+        <p><strong>Contexte :</strong> Dans le cadre de la SAE2.03, nous avons été chargés de créer un site web permettant au service informatique de gérer efficacement les demandes d’assistance. Ce projet s’inscrit dans une logique d’amélioration de la communication entre les utilisateurs et la DSI, tout en automatisant le suivi et le traitement des tickets.</p>
+
+        <p class="competence-title">Étapes de réalisation :</p>
+        <ul>
+          <li><strong>Analyse des besoins :</strong>
+            <ul>
+              <li>- Étude du fonctionnement d’un système de gestion de tickets (types d’utilisateurs, cycles de vie des tickets, priorisation, etc.).</li>
+              <li>- Rédaction d’un cahier des charges avec les fonctionnalités attendues (création, suivi, affectation, clôture des tickets).</li>
+            </ul>
+          </li>
+
+          <li><strong>Conception de l’architecture :</strong>
+            <ul>
+              <li>- Création de la base de données (utilisateurs, tickets, priorités, statuts...).</li>
+              <li>- Définition des rôles et droits d’accès (utilisateur, technicien, administrateur).</li>
+            </ul>
+          </li>
+
+          <li><strong>Développement du site web :</strong>
+            <ul>
+              <li>- Mise en place de l’interface utilisateur avec formulaire de création de ticket, suivi et suppression.</li>
+              <li>- Interface d’administration pour trier, affecter, mettre en attente ou clôturer les tickets.</li>
+              <li>- Fonctionnalité pour rendre un ticket public si le problème concerne plusieurs utilisateurs.</li>
+            </ul>
+          </li>
+
+          <li><strong>Tests et démonstration :</strong>
+            <ul>
+              <li>- Vérification du bon fonctionnement des rôles et transitions des tickets.</li>
+            </ul>
+          </li>
+        </ul>
+
+        <p><strong>Note :</strong> Le projet sera évalué prochainement dans le cadre de la SAE2.03, lors d’un examen à venir.</p>
+      </div>
+    </div>
+  </section>
+
+<!-- HOBBIES -->
+<section id="hobbies" class="section section--alt">
+    <div class="container">
+      <div class="section__head">
+        <h2>Divers (clique pour voir le détail)</h2>
+      </div>
+  
+      <!-- Cartes visibles -->
+<div class="grid grid--3">
+  <div class="card clickable open-modal" data-target="hob-referee">
+    <h3>Arbitrage de football</h3>
+    <img src="./arbitrage.jpg" style="border: 4mm ridge rgba(30, 58, 138, .6);">
+    <p class="muted">Cliquer pour voir mon parcours d'arbitre</p>
+  </div>
+
+  <div class="card clickable open-modal" data-target="hob-foot">
+    <h3>Football</h3>
+    <img src="./football2.jpeg" style="border: 4mm ridge rgba(30, 58, 138, .6);">
+    <p class="muted">Cliquer pour voir mon parcours + photos</p>
+  </div>
+
+  <div class="card clickable open-modal" data-target="hob-volley">
+    <h3>Volleyball</h3>
+    <img src="./voleyball2.png" style="border: 4mm ridge rgba(30, 58, 138, .6);">
+    <p class="muted">Cliquer pour voir mon parcours + photos</p>
+  </div>
+
+  <div class="card clickable open-modal" data-target="hob-games">
+    <h3>Jeux vidéo</h3>
+    <img src="./ps1.jpeg" style="border: 4mm ridge rgba(30, 58, 138, .6);">
+    <p class="muted">Cliquer pour voir mes jeux préférés</p>
+  </div>
+</div>
+  
+      <!-- Contenus cachés (affichés dans le popup) -->
+
+      <div id="hob-referee" class="modal-data" hidden>
+  <h3>Mon parcours d'arbitre de football</h3>
+
+  <img src="./arbitrage.jpg" style="border: 4mm ridge rgba(30, 58, 138, .6);">
+
+  <p><strong>Découverte de l'arbitrage :</strong>
+  Passionné de <u>football</u> depuis mon enfance, j'ai souhaité découvrir ce sport sous un autre angle en me lançant dans l'<u>arbitrage</u>. Cette expérience m'a permis de développer de nouvelles compétences, notamment en matière de <u>prise de décision</u>, de <u>gestion du stress</u> et de <u>communication</u>.</p>
+
+  <p><strong>Formation d'arbitrage :</strong>
+  En <u>décembre 2025</u>, j'ai suivi la <u>formation d'arbitrage de la Fédération Française de Football (FFF)</u>. Cette formation m'a permis d'acquérir les connaissances nécessaires sur les lois du jeu, le positionnement sur le terrain, la gestion des joueurs et le rôle de l'arbitre dans une rencontre officielle.</p>
+
+  <p><strong>Début de mon activité :</strong>
+  À partir de <u>janvier 2026</u>, j'ai commencé à arbitrer en tant qu'<u>arbitre stagiaire</u>. Dans ce cadre, je représente le <u>Football Club de Joze</u> et je participe régulièrement à l'encadrement des rencontres de football organisées dans le district.</p>
+
+  <p><strong>Arbitre officiel :</strong>
+  Pour la saison <u>2026/2027</u>, je suis devenu <u>arbitre officiel du District du Puy-de-Dôme</u>. Cette fonction me permet d'officier sur des rencontres officielles tout en développant des qualités telles que la <u>rigueur</u>, le <u>sens des responsabilités</u>, l'<u>impartialité</u>, la <u>gestion des conflits</u> et la <u>capacité à prendre des décisions rapidement</u>.</p>
+
+  <img src="./arbitre2.jpg" alt="Photo d'arbitrage" class="illustration">
+</div>
+
+      <div id="hob-foot" class="modal-data" hidden>
+        <h3>Passion pour le football</h3>
+        <img src="./football2.jpeg" style="border: 4mm ridge rgba(30, 58, 138, .6);">
+  
+        <p><strong>Mon parcours dans le football </strong>: Depuis mon enfance, <u>le football</u> a toujours été <u>une passion</u> qui occupe une place importante dans ma vie. J’ai commencé à jouer dès mon plus jeune âge, ce qui fait maintenant plusieurs années d’expérience et de plaisir sur les terrains. Jouer au football me procure une immense <u>satisfaction</u> : <u>l’adrénaline</u> pendant le match, <u>la camaraderie</u> entre coéquipiers et le simple bonheur de courir derrière le ballon sont des sentiments qui me motivent à <u>continuer</u>.</p>
+  
+        <p><strong>Mon poste préféré :</strong> Je suis un joueur <u>polyvalent</u>, capable de m’adapter à plusieurs postes selon les besoins de l’équipe. Cependant, ma préférence va à <u>la défense</u>. J’aime <u>analyser le jeu</u>, <u>protéger ma zone</u>, et m’assurer que mon équipe reste solide face aux attaques adverses. Être défenseur me permet d’exprimer ma rigueur et ma détermination sur le terrain.</p>
+  
+        <p><strong> Mes expériences dans le football :</strong> Au fil des années, j’ai participé à de nombreux tournois, dont des tournois scolaires comme celui sur la photo, ainsi qu’à des matchs amicaux réguliers avec mes amis. À une époque, je jouais presque tous les jours, ou au minimum un match tous les deux jours. Ce rythme m’a permis de développer mes compétences, d’affiner ma technique et de vivre des moments inoubliables avec des coéquipiers qui partagent ma passion.</p>
+  
+        <img src="./football.jpg" alt="Photo d'un match de football" class="illustration">
+      </div>
+      
+
+
+
+      <div id="hob-volley" class="modal-data" hidden>
+        <h3>Engagement dans le volleyball</h3>
+        <img src="./voleyball2.png" style="border: 4mm ridge rgba(30, 58, 138, .6);">
+  
+        <p><strong>Mon parcours dans le volleyball : </strong> J’ai commencé à jouer au volleyball il y a presque 4 ans, et depuis, ce sport est devenu une véritable passion. Ce que j’apprécie le plus, c’est la coordination et la communication essentielles pour exceller en équipe. De plus, l’intensité et la concurrence sur le terrain rendent chaque match captivant et stimulant.</p>
+  
+        <p><strong>Mon poste préféré :</strong> Comme vous le savez, au volleyball, les joueurs doivent tourner et occuper tous les postes au fil du jeu. Cependant, j’ai une préférence pour jouer sur la ligne des attaquants. Être en première ligne me permet d’exprimer mon dynamisme et ma capacité à marquer des points pour mon équipe.</p>
+  
+        <p><strong> Mes expériences dans le voleyball :</strong> Au cours de ces années, j’ai participé à plusieurs tournois, notamment un tournoi scolaire dont cette photo témoigne. Ce match, en particulier, reste un souvenir marquant pour notre équipe et pour moi.</p>
+  
+        <img src="./voleyball.jpg" alt="Photo de l'équipe de volleyball" class="illustration">
+      </div>
+  
+      <div id="hob-games" class="modal-data" hidden>
+        <h3>Passion pour les jeux vidéo</h3>
+        <img src="./ps1.jpeg" style="border: 4mm ridge rgba(30, 58, 138, .6);">
+  
+        <p><strong>Mon expérience avec les jeux vidéo :</strong> Depuis mon enfance, les jeux vidéo ont toujours occupé une place importante dans ma vie. J’ai commencé à jouer sur la PlayStation 1, et au fil des années, j’ai exploré les différentes générations de consoles, de la PS2 à la PS5.</p>
+  
+        <img src="./fifa.jpeg" alt="Fifa" class="illustration">
+  
+        <p><strong>Mes jeux préférés :</strong> Parmi les jeux qui m’ont marqué, il y a <em>FIFA</em> , qui a éveillé en moi une passion pour le football virtuel, et les séries <em>GTA</em>, notamment <em>San Andreas</em> et <em>GTA 5</em>, qui m’ont captivé par leurs mondes ouverts et leurs histoires immersives. De plus, <em>Dragon Ball</em> sur la PS1 reste un souvenir inoubliable de mon enfance.</p>
+  
+        <img src="./gta5.png" alt="GTA5" class="illustration">
+  
+        <p><strong>Ce que j’apprécie dans les jeux vidéo :</strong> Ils ne sont pas seulement un divertissement pour moi, mais aussi un moyen d’apprendre, de réfléchir et de me connecter avec des amis. Les jeux de sport et d’aventure, en particulier, m’ont permis de développer des compétences telles que la stratégie et la gestion du temps.</p>
+      </div>
+    </div>
+  </section>
+  
+  <!-- CV -->
+  <section id="cv" class="section">
+    <div class="container">
+      <div class="section__head">
+        <h2>CV</h2>
+      </div>
+      <div class="card">
+        <a class="btn btn--primary" href="./CV HADDAR.pdf" target="_blank">Ouvrir le CV</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section section--alt">
+    <div class="container">
+      <div class="section__head">
+        <h2>Contact</h2>
+      </div>
+
+      <div class="card">
+        <a href="mailto:Hamza.HADDAR@etu.uca.fr" class="link">Email : Hamza.HADDAR@etu.uca.fr</a>
+        <br><br>
+        <a href="https://www.linkedin.com/in/hamza-haddar-50477633a/" target="_blank" class="link">LinkedIn</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>&copy; 2026 Portfolio - Tous droits réservés.</p>
+      <a class="link" href="#home">Retour en haut ↑</a>
+    </div>
+  </footer>
+
+  <!-- MODAL (popup) -->
+  <div class="modal" id="modal" aria-hidden="true">
+    <div class="modal__overlay" data-close="true"></div>
+
+    <div class="modal__box" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal__close" type="button" data-close="true" aria-label="Fermer">✕</button>
+
+      <div class="modal__content">
+        <h3 id="modalTitle"></h3>
+        <div id="modalBody"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
